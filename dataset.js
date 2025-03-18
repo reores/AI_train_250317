@@ -15,7 +15,7 @@ class DataSet{
 	set_fill(ufill){this.user_fill=ufill}	 
 }
 
-//d1.set_img(0,{imgtitle:"",imglog:"",imgurl:"",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/LinearRegression/Examp_LinearRegression_bostonHousing.py"})//이미지타이틀
+//d1.set_img(0,{imgtitle:"",imglog:"",imgurl:"",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/LinearRegression/Examp_LinearRegression_CaliforniaHousing.py"})//이미지타이틀
 let d1 = new DataSet("선형회귀모델")//메인 타이틀 //메뉴번호
 d1.set_content("보스턴 주택가격 예측 선형 회귀모델")//서브 타이틀
 d1.set_img(0,{imgtitle:"1. 보스턴 데이터 수신",imglog:"텐서플로우 보스턴 데이터셋 수신코드",imgurl:"https://drive.google.com/file/d/1cCr9IHyF1SWtMT1fzXZgEzip7RNLg9US/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/LinearRegression/Examp_LinearRegression_bostonHousing.py"})//이미지타이틀
@@ -28,10 +28,20 @@ d1.set_img(0,{imgtitle:"7. 훈련결과 시각화",imglog:"훈련 결과인 MSE 
 d1.set_img(0,{imgtitle:"8. 모델 구동 테스트",imglog:"테스트 데이터를 주입하여 예측결과를 인출하고 실제 정답과 차이를 정확률로 표기",imgurl:"https://drive.google.com/file/d/1N1DwX2HwYZNi6rEFf_Hr_Dz3OkoGgPP0/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/LinearRegression/Examp_LinearRegression_bostonHousing.py"})//이미지타이틀
 
 d1.set_content("캘리포니아 주택가격 예측 선형 회귀모델")
-d1.set_img(1,{imgtitle:"캘리포니아 주택가격 예측",imgurl:"",imglog:"",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/LinearRegression/Examp_LinearRegression_bostonHousing.py"})//이미지타이틀
+d1.set_img(1,{imgtitle:"1. 캘리포니아 주택 특성데이터 수신 및 분석",imglog:"사이킷런에서 제공하는 캘리포니아 주택 가격에 따른 데이터 특성(x)들의 모음과 가격정보(y)",imgurl:"https://drive.google.com/file/d/19I52Z00gXR6t1cgh0lz7M6GtBU33hixT/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/LinearRegression/Examp_LinearRegression_CaliforniaHousing.py"})//이미지타이틀
+d1.set_img(1,{imgtitle:"2. 주택특성과 가격의 연관성 분석",imglog:"주택의 특성별 산점도 분석으로 가격에 따른 선형성 확인",imgurl:"https://drive.google.com/file/d/1pYJYgfRsDXAtVJ4ArhGuOjM_cILhGEYL/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/LinearRegression/Examp_LinearRegression_CaliforniaHousing.py"})//이미지타이틀
+d1.set_img(1,{imgtitle:"3. 데이터 통계정보 분석",imglog:"판다스 DataFrame으로 변환 후 평균치, 표준편차 등의 데이터 통계정보 분석",imgurl:"https://drive.google.com/file/d/1YqBxWwzDgJIjB1Fx4512hRPERSuUBURm/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/LinearRegression/Examp_LinearRegression_CaliforniaHousing.py"})//이미지타이틀
+d1.set_img(1,{imgtitle:"4. 데이터 분포 확인",imglog:"히스토그램으로 데이터 분포 시각화와 이상데이터 또는 범위를 벗어난 데이터 설정(임계치 산정)",imgurl:"https://drive.google.com/file/d/1JnuH1GhnD4fJmvygotm_VINyJ_wA9TWN/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/LinearRegression/Examp_LinearRegression_CaliforniaHousing.py"})//이미지타이틀
+d1.set_img(1,{imgtitle:"",imglog:"",imgurl:"",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/LinearRegression/Examp_LinearRegression_CaliforniaHousing.py"})//이미지타이틀
+d1.set_img(1,{imgtitle:"",imglog:"",imgurl:"",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/LinearRegression/Examp_LinearRegression_CaliforniaHousing.py"})//이미지타이틀
+d1.set_img(1,{imgtitle:"",imglog:"",imgurl:"",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/LinearRegression/Examp_LinearRegression_CaliforniaHousing.py"})//이미지타이틀
+d1.set_img(1,{imgtitle:"",imglog:"",imgurl:"",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/LinearRegression/Examp_LinearRegression_CaliforniaHousing.py"})//이미지타이틀
+d1.set_img(1,{imgtitle:"",imglog:"",imgurl:"",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/LinearRegression/Examp_LinearRegression_CaliforniaHousing.py"})//이미지타이틀
+d1.set_img(1,{imgtitle:"",imglog:"",imgurl:"",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/LinearRegression/Examp_LinearRegression_CaliforniaHousing.py"})//이미지타이틀
+d1.set_img(1,{imgtitle:"",imglog:"",imgurl:"",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/LinearRegression/Examp_LinearRegression_CaliforniaHousing.py"})//이미지타이틀
 
 d1.set_content("당뇨상태 1년 후 예측 선형 회귀모델")
-d1.set_img(2,{imgtitle:"1년 후 당뇨상태 예측",imgurl:"",imglog:"",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/LinearRegression/Examp_LinearRegression_bostonHousing.py"})//이미지타이틀
+d1.set_img(2,{imgtitle:"1년 후 당뇨상태 예측",imglog:"",imgurl:"",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/LinearRegression/Examp_LinearRegression_bostonHousing.py"})//이미지타이틀
 
 d1.set_fill("선형 회귀모델은 단일 데이터 또는 다중 데이터를 이용하여 연속적인 값을 출력하여 예측한다.")//사용자 에필로그
 data_sets.push(d1)
