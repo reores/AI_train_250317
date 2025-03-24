@@ -47,7 +47,7 @@ d1.set_fill("선형 회귀모델은 단일 데이터 또는 다중 데이터를 
 data_sets.push(d1)
 
 // menu2 =============================================================
-d2.set_img(0,{imgtitle:"",imglog:"",imgurl:"",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
+//d2.set_img(0,{imgtitle:"",imglog:"",imgurl:"",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
 let d2 = new DataSet("분류모델 구현")//메인타이틀
 d2.set_content("패션 mnist 회귀 다중 분류")//서브 타이틀
 d2.set_img(0,{imgtitle:"1. 패션데이터 수신",imglog:"",imgurl:"https://drive.google.com/file/d/1ZAOfCO7teED1_eW8KnBNzBz_bxCyWsZf/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
