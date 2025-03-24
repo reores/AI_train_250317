@@ -15,8 +15,9 @@ class DataSet{
 	set_fill(ufill){this.user_fill=ufill}	 
 }
 
+// menu2 =============================================================
 //d1.set_img(0,{imgtitle:"",imglog:"",imgurl:"",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/LinearRegression/Examp_LinearRegression_CaliforniaHousing.py"})//이미지타이틀
-let d1 = new DataSet("선형회귀모델")//메인 타이틀 //메뉴번호
+let d1 = new DataSet("선형 회귀모델")//메인 타이틀 //메뉴번호
 d1.set_content("보스턴 주택가격 예측 선형 회귀모델")//서브 타이틀
 d1.set_img(0,{imgtitle:"1. 보스턴 데이터 수신",imglog:"텐서플로우 보스턴 데이터셋 수신코드",imgurl:"https://drive.google.com/file/d/1cCr9IHyF1SWtMT1fzXZgEzip7RNLg9US/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/LinearRegression/Examp_LinearRegression_bostonHousing.py"})//이미지타이틀
 d1.set_img(0,{imgtitle:"2. 데이터 특성 파악",imglog:"각 필드별 데이터의 특성과 의미 및 값을 확인",imgurl:"https://drive.google.com/file/d/1I7I3EF73NFjj2XN_GULx-4GHl9aOo1r1/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/LinearRegression/Examp_LinearRegression_bostonHousing.py"})//이미지타이틀
@@ -46,8 +47,23 @@ d1.set_fill("선형 회귀모델은 단일 데이터 또는 다중 데이터를 
 data_sets.push(d1)
 
 // menu2 =============================================================
-let d2 = new DataSet("공통모듈구현")//메인타이틀
+d2.set_img(0,{imgtitle:"",imglog:"",imgurl:"",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
+let d2 = new DataSet("분류모델 구현")//메인타이틀
+d2.set_content("패션 mnist 회귀 다중 분류")//서브 타이틀
+d2.set_img(0,{imgtitle:"1. 패션데이터 수신",imglog:"",imgurl:"https://drive.google.com/file/d/1ZAOfCO7teED1_eW8KnBNzBz_bxCyWsZf/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"2. 데이터 구조 확인",imglog:"",imgurl:"https://drive.google.com/file/d/1N6cXzqTwFgV-O01iRfMFP8oYkOM1codH/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"3. 데이터 정규하 및 확인",imglog:"",imgurl:"https://drive.google.com/file/d/1rqCWd-dKqRfapRTlWSCLRXFBqsn88MtN/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"4. 데이터 셔플링 및 정답 일치성 확인",imglog:"",imgurl:"https://drive.google.com/file/d/17dHWDAPKsnVKZ1Cu9N0oaQa2tDiuWwyp/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"5. 커스텀 원핫인코딩 수행",imglog:"",imgurl:"https://drive.google.com/file/d/1uDvaE1fhJN4JosIz9lSNqeTe6GF0luSN/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"6. 모델구성 및 훈련실행",imglog:"",imgurl:"https://drive.google.com/file/d/1n4rNzKxVgE-nG0oz5f7ffoRtg_K9gDtn/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"7. 훈련결과 시각화",imglog:"",imgurl:"https://drive.google.com/file/d/1qjJlNEEqagNVmTfzMN2AGB0hyhtcDLhA/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"8. 예측결과 시각화",imglog:"",imgurl:"https://drive.google.com/file/d/11sU6P_j8dPB_1Dtprbfwi0shvNxUOOnI/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"9. 모델 및 인코더 저장",imglog:"",imgurl:"https://drive.google.com/file/d/1xu0LzQvxiaoYLa8dkUcLdh6CjJvpYBU_/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"10. 모델 및 인코더 불러오기",imglog:"",imgurl:"https://drive.google.com/file/d/1ixyiHTPmlIK3L-6pJe_pNxzj3xpMqiQd/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"11. 파일불러오기 및 배경제거_정규화",imglog:"",imgurl:"https://drive.google.com/file/d/1MtLA4UGYphLb1pjEVyDYpZJ6i5ZJ0kBv/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"12. 실제 이미지 결과 시각화",imglog:"",imgurl:"https://drive.google.com/file/d/1Tu-0tjycj9Bp0SRzgDMY40CtWAyiJR0Z/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
 
+d1.set_fill("회귀 모델의 softmax 다중 분류 구현")//사용자 에필로그
 data_sets.push(d2)
 
 // menu3 =============================================================
