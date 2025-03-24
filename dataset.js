@@ -63,7 +63,7 @@ d2.set_img(0,{imgtitle:"10. 모델 및 인코더 불러오기",imglog:"",imgurl:
 d2.set_img(0,{imgtitle:"11. 파일불러오기 및 배경제거_정규화",imglog:"",imgurl:"https://drive.google.com/file/d/1MtLA4UGYphLb1pjEVyDYpZJ6i5ZJ0kBv/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
 d2.set_img(0,{imgtitle:"12. 실제 이미지 결과 시각화",imglog:"",imgurl:"https://drive.google.com/file/d/1Tu-0tjycj9Bp0SRzgDMY40CtWAyiJR0Z/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
 
-d1.set_fill("회귀 모델의 softmax 다중 분류 구현")//사용자 에필로그
+d2.set_fill("회귀 모델의 softmax 다중 분류 구현")//사용자 에필로그
 data_sets.push(d2)
 
 // menu3 =============================================================
