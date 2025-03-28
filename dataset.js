@@ -47,7 +47,7 @@ d1.set_fill("선형 회귀모델은 단일 데이터 또는 다중 데이터를 
 data_sets.push(d1)
 
 // menu2 =============================================================
-//d2.set_img(0,{imgtitle:"",imglog:"",imgurl:"",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
+//d2.set_img(1,{imgtitle:"",imglog:"",imgurl:"",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classification_Convolution/Exam_fashionmnist_class_conv.py"})//이미지타이틀
 let d2 = new DataSet("분류모델 구현")//메인타이틀
 d2.set_content("패션 mnist 회귀 다중 분류")//서브 타이틀
 d2.set_img(0,{imgtitle:"1. fashion_mnist 데이터 수신",imglog:"구글에서 제공하는 패션관련 이미지 다운로드",imgurl:"https://drive.google.com/file/d/1ZAOfCO7teED1_eW8KnBNzBz_bxCyWsZf/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
@@ -62,6 +62,20 @@ d2.set_img(0,{imgtitle:"9. 모델 및 인코더 저장",imglog:"훈련된 모델
 d2.set_img(0,{imgtitle:"10. 모델 및 인코더 불러오기",imglog:"실제 이미지 측정을 위해 훈련된 모델과 라벨 인코더를 호출",imgurl:"https://drive.google.com/file/d/1ixyiHTPmlIK3L-6pJe_pNxzj3xpMqiQd/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
 d2.set_img(0,{imgtitle:"11. 실제 이미지 테스트",imglog:"인터넷의 이미지를 복사하여(test_img) 모델에 적합하도록 전처리 후 테스트 실행",imgurl:"https://drive.google.com/file/d/1MtLA4UGYphLb1pjEVyDYpZJ6i5ZJ0kBv/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
 d2.set_img(0,{imgtitle:"12. 실제 이미지 예측결과 시각화",imglog:"실제 이미지를 예측한 결과를 시각화 하여 표현",imgurl:"https://drive.google.com/file/d/1Tu-0tjycj9Bp0SRzgDMY40CtWAyiJR0Z/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/ClassificationSoftmax_fashionMnist/Examp_classification_fashionMnist.py"})//이미지타이틀
+
+d2.set_content("CNN")//서브 타이틀
+d2.set_img(1,{imgtitle:"1. 데이터 불러오기 및 라벨리스트 생성",imglog:"텐서플로우에서 테스트용 패션 mnist 데이터를 불러온다.",imgurl:"https://drive.google.com/file/d/1tHe5YXNq-y_p4f-okb_TUGugs_kr_r8A/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classification_Convolution/Exam_fashionmnist_class_conv.py"})//이미지타이틀
+d2.set_img(1,{imgtitle:"2. 데이터 구조확인",imglog:"불러온 데이터 내부 구조를 확인한다.",imgurl:"https://drive.google.com/file/d/1SieUzgMifHbkVM1JVNsThCsXYRqmf0Gv/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classification_Convolution/Exam_fashionmnist_class_conv.py"})//이미지타이틀
+d2.set_img(1,{imgtitle:"3. 데이터 분할",imglog:"사이킷런의 train_test_split 을 활용해 검증 데이터를 분리한다.",imgurl:"https://drive.google.com/file/d/19IS9fc-SVqGjhCKYKNL8rpigNOiUj5IX/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classification_Convolution/Exam_fashionmnist_class_conv.py"})//이미지타이틀
+d2.set_img(1,{imgtitle:"4. 데이터 셔플 및 전처리",imglog:"사이킷런의 shuffle 을 활용해 데이터를 섞어준다.",imgurl:"https://drive.google.com/file/d/1YFxeYO2XHnx6Dq4nVoINnUZSDpE9YsA2/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classification_Convolution/Exam_fashionmnist_class_conv.py"})//이미지타이틀
+d2.set_img(1,{imgtitle:"5. 정답 및 이미지 일치여부 확인",imglog:"임의의 데이터를 뽑아 정답과 이미지 일치 여부를 확인한다.",imgurl:"https://drive.google.com/file/d/1U51eVypQEky72_N2Gu1JfaSh4-Ur9TCw/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classification_Convolution/Exam_fashionmnist_class_conv.py"})//이미지타이틀
+d2.set_img(1,{imgtitle:"6. 모델구성 및 컴파일",imglog:"Convolution Layer(Conv2D)가 적용된 모델을 구성한다.",imgurl:"https://drive.google.com/file/d/1iee-cq20PlzNjncuijUMOMs9fc51rSLF/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classification_Convolution/Exam_fashionmnist_class_conv.py"})//이미지타이틀
+d2.set_img(1,{imgtitle:"7. 훈련실행",imglog:"데이터 개수를 고려하여 배치사이즈 약배수로 지정 후 훈련 100회 실행",imgurl:"https://drive.google.com/file/d/1DeSFR3VGLqEzD11pW0YvG21LpATPJk3r/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classification_Convolution/Exam_fashionmnist_class_conv.py"})//이미지타이틀
+d2.set_img(1,{imgtitle:"8. 그래프그리기",imglog:"훈련 정확도와 손실율을 그래프로 그려 시각화",imgurl:"https://drive.google.com/file/d/1qmbUsUHPZNz-lVwefE_n6oa6jpUrUx-r/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classification_Convolution/Exam_fashionmnist_class_conv.py"})//이미지타이틀
+d2.set_img(1,{imgtitle:"9. 모델평가 및 예측 시각화",imglog:"모델평가(evaluate), 예측(predict) 후 예측결과 시각화",imgurl:"https://drive.google.com/file/d/1gyRDbDr7sH8i22j-V9XUad776LBbFSU2/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classification_Convolution/Exam_fashionmnist_class_conv.py"})//이미지타이틀
+d2.set_img(1,{imgtitle:"10. 혼동행렬 생성",imglog:"예측값과 실제 정답의 데이터 구조를 일치화시키고 confusion_metrix로 혼동행렬 생성",imgurl:"https://drive.google.com/file/d/1dY8npU47jGmViUNBXyhjFLFwMZMZMWyU/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classification_Convolution/Exam_fashionmnist_class_conv.py"})//이미지타이틀
+d2.set_img(1,{imgtitle:"11. 혼동행렬 시각화(히트맵)",imglog:"생성된 혼동행렬을 seaborn의 heatmap을 활용해 시각화",imgurl:"https://drive.google.com/file/d/1Ktp3N4RnTeBAEvZVnPLDMyItDF1UGZbs/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classification_Convolution/Exam_fashionmnist_class_conv.py"})//이미지타이틀
+d2.set_img(1,{imgtitle:"12. f1스코어 및 모델저장",imglog:"f1 스코어를 확인 후 모델 최종 저장",imgurl:"https://drive.google.com/file/d/1FDo5G20BMp2HmbOA7t2hZw8uaHcsQLjf/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classification_Convolution/Exam_fashionmnist_class_conv.py"})//이미지타이틀
 
 d2.set_fill("회귀 모델의 softmax 다중 분류 구현")//사용자 에필로그
 data_sets.push(d2)
