@@ -89,6 +89,19 @@ d2.set_img(2,{imgtitle:"8. 예측 및 확률 검증",imglog:"예측은 산점도
 d2.set_img(2,{imgtitle:"9. 예측정보 출력",imglog:"다음 사이클(내일)의 가격 예측",imgurl:"https://drive.google.com/file/d/1ycMY5e0tQKXQGehN__3gpWsHj7Vtp1jc/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Encrypto_Anal/EncryptoCoinPredPrice.py"})//이미지타이틀
 d2.set_img(2,{imgtitle:"10. 예측과 실제 그래프 시각화",imglog:"예측정보와 실제그래프를 동시 표현으로 정확도 판단",imgurl:"https://drive.google.com/file/d/1o1DqpycXF6mrYSQ3DY5wQ--O4a8rNrUw/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Encrypto_Anal/EncryptoCoinPredPrice.py"})//이미지타이틀
 
+d2.set_content("mnist 데이터 컨볼루션 다중분류")//서브 타이틀
+d2.set_img(3,{imgtitle:"1. 데이터 수신 및 셔플",imglog:"mnist 손으로 쓴 숫자데이터 수신",imgurl:"https://drive.google.com/file/d/1VCBhp4eN3Z7aY8GwmyILPmN15w2q4uqp/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classifi_mnist_conv_advan/mnist_conv_main.py"})//이미지타이틀
+d2.set_img(3,{imgtitle:"2. 데이터 스케일 및 원핫인코딩",imglog:"min-max scaling 정답데이터 원핫인코딩",imgurl:"https://drive.google.com/file/d/1zq1v0Q8AFotZHTpAxjoHrPS6k-rCzyqh/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classifi_mnist_conv_advan/mnist_conv_main.py"})//이미지타이틀
+d2.set_img(3,{imgtitle:"3. 콜백함수 생성",imglog:"체크포인트 모델 저장 콜백과 훈련 조기종료 콜백 정의",imgurl:"https://drive.google.com/file/d/1XEOIIuKX3uKki9Ny8uaE4Qwlu27hzCR6/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classifi_mnist_conv_advan/mnist_conv_main.py"})//이미지타이틀
+d2.set_img(3,{imgtitle:"4. 모델 컴파일 및 훈련",imglog:"컨볼루션 레이어 적용한 모델 구성 및 훈련",imgurl:"https://drive.google.com/file/d/1bPCwMucv0kmWH-qA-HRVCo5XBzKuBFPA/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classifi_mnist_conv_advan/mnist_conv_main.py"})//이미지타이틀
+d2.set_img(3,{imgtitle:"5. 모델 조기종료 및 최적값 체크포인트",imglog:"모델 저장/조기종료 시점 및 최적값 확인",imgurl:"https://drive.google.com/file/d/1cn5G0wOG0xGyGAJwGhfmR1RnNn22YCLA/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classifi_mnist_conv_advan/mnist_conv_main.py"})//이미지타이틀
+d2.set_img(3,{imgtitle:"6. 훈련시각화 및 모델 선택",imglog:"훈련결과 시각화를 통해 최적화된 epochs 판단",imgurl:"https://drive.google.com/file/d/14ejsIk9K35FB_W7wahe7mQ-eppbLaAzQ/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classifi_mnist_conv_advan/mnist_conv_main.py"})//이미지타이틀
+d2.set_img(3,{imgtitle:"7. 모델 선택",imglog:"최적화된 epochs에 해당하는 모델 호출",imgurl:"https://drive.google.com/file/d/1nYP1X9s3HXKxD-ewWAxXabXOZQTx3K8w/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classifi_mnist_conv_advan/mnist_conv_main.py"})//이미지타이틀
+d2.set_img(3,{imgtitle:"8. 테스트 데이터 예측 결과",imglog:"불러온 모델을 통해 테스트 데이터 예측해보기",imgurl:"https://drive.google.com/file/d/1Z_BDJ88gOO2GFpWtmPSqs_1iYHscqaaj/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classifi_mnist_conv_advan/mnist_conv_main.py"})//이미지타이틀
+d2.set_img(3,{imgtitle:"9. 그림판 이미지 판별 테스트",imglog:"직접 그린 그림판 이미지 판별해보기",imgurl:"https://drive.google.com/file/d/1RGdLDjHsGUlsK5h_eFfJ5472iqL-lKA1/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classifi_mnist_conv_advan/Test_mnist_conv_advan.py"})//이미지타이틀
+d2.set_img(3,{imgtitle:"10. 그림판 이미지 예측 결과",imglog:"직접 그린 그림판 이미지 판결 결과",imgurl:"https://drive.google.com/file/d/1bZtK1w8JzqlUskQJXq8p5Nx8PxAvF3BN/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classifi_mnist_conv_advan/Test_mnist_conv_advan.py"})//이미지타이틀
+d2.set_img(3,{imgtitle:"11. 자동 저장 모델",imglog:"로컬 지정경로에 저장된 자동 저장 모델 현황",imgurl:"https://drive.google.com/file/d/1UkCkTgt5bdckELCQPmOSI4tPnVghRBMF/view?usp=drive_link",sourceurl:""})//이미지타이틀
+
 d2.set_fill("회귀 모델의 softmax 다중 분류 구현")//사용자 에필로그
 data_sets.push(d2)
 
