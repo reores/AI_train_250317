@@ -77,6 +77,18 @@ d2.set_img(1,{imgtitle:"10. 혼동행렬 생성",imglog:"예측값과 실제 정
 d2.set_img(1,{imgtitle:"11. 혼동행렬 시각화(히트맵)",imglog:"생성된 혼동행렬을 seaborn의 heatmap을 활용해 시각화",imgurl:"https://drive.google.com/file/d/1Ktp3N4RnTeBAEvZVnPLDMyItDF1UGZbs/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classification_Convolution/Exam_fashionmnist_class_conv.py"})//이미지타이틀
 d2.set_img(1,{imgtitle:"12. f1스코어 및 모델저장",imglog:"f1 스코어를 확인 후 모델 최종 저장",imgurl:"https://drive.google.com/file/d/1FDo5G20BMp2HmbOA7t2hZw8uaHcsQLjf/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Classification_Convolution/Exam_fashionmnist_class_conv.py"})//이미지타이틀
 
+d2.set_content("암호화폐 회귀분석 가격예측")//서브 타이틀
+d2.set_img(2,{imgtitle:"1. 가상화폐 데이터수신 모듈",imglog:"날짜별/주별/시간별/화폐별 데이터 수신 모듈",imgurl:"https://drive.google.com/file/d/1hC9fw7hHFQw6ZyR1WDTMKB0oa_oDljNM/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Encrypto_Anal/utilpy.py"})//이미지타이틀
+d2.set_img(2,{imgtitle:"2. 데이터 셋 생성하기",imglog:"가격정보와 연관성이 있는 값으로 구성된 데이터 셋",imgurl:"https://drive.google.com/file/d/1QNaACharG6UqrLeVsgIScUjE9Ii-VSVP/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Encrypto_Anal/utilpy.py"})//이미지타이틀
+d2.set_img(2,{imgtitle:"3. 데이터 값 추출하기",imglog:"문제데이터와 필드리스트 추출 모듈",imgurl:"https://drive.google.com/file/d/1z1djho-kujseirmkb0Ic1Pdl5-cqQGEX/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Encrypto_Anal/utilpy.py"})//이미지타이틀
+d2.set_img(2,{imgtitle:"4. 모듈을 통해 데이터 수신",imglog:"데이터 수신 후 생성/추출 모듈 호출",imgurl:"https://drive.google.com/file/d/1NWzn0g_v7HYqYzuH-NDjOuG3BkAcbEg9/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Encrypto_Anal/EncryptoCoinPredPrice.py"})//이미지타이틀
+d2.set_img(2,{imgtitle:"5. 산점도 연관성 분석",imglog:"산점도 연관성 분석으로 가격정보와 연관성이 낮은 필드 제거",imgurl:"https://drive.google.com/file/d/1VxKzb5nJtD42fXMMIYJQYIpnkCsS7dOF/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Encrypto_Anal/EncryptoCoinPredPrice.py"})//이미지타이틀
+d2.set_img(2,{imgtitle:"6. 회귀분석을 위한 파생 값 통합",imglog:"회귀분석을 위해 연관 필드 데이터 통합 및 정규화",imgurl:"https://drive.google.com/file/d/1ceyskd-unMjzTM4pefQvHp6P91CvHYzP/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Encrypto_Anal/EncryptoCoinPredPrice.py"})//이미지타이틀
+d2.set_img(2,{imgtitle:"7. 심층모델 구성",imglog:"다층 레이어로 구성된 회귀모델 구성 및 컴파일 / 훈련",imgurl:"https://drive.google.com/file/d/1VmNSBpTBf7WJkxZdt9eVbt_0jX3-OYx_/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Encrypto_Anal/EncryptoCoinPredPrice.py"})//이미지타이틀
+d2.set_img(2,{imgtitle:"8. 예측 및 확률 검증",imglog:"예측은 산점도, 실제는 선형그래프로 시각화 비교",imgurl:"https://drive.google.com/file/d/15ExMsFgJT44mX8jF3EbjUcz_dH5zZDvT/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Encrypto_Anal/EncryptoCoinPredPrice.py"})//이미지타이틀
+d2.set_img(2,{imgtitle:"9. 예측정보 출력",imglog:"다음 사이클(내일)의 가격 예측",imgurl:"https://drive.google.com/file/d/1ycMY5e0tQKXQGehN__3gpWsHj7Vtp1jc/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Encrypto_Anal/EncryptoCoinPredPrice.py"})//이미지타이틀
+d2.set_img(2,{imgtitle:"10. 예측과 실제 그래프 시각화",imglog:"예측정보와 실제그래프를 동시 표현으로 정확도 판단",imgurl:"https://drive.google.com/file/d/1o1DqpycXF6mrYSQ3DY5wQ--O4a8rNrUw/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/blob/main/Encrypto_Anal/EncryptoCoinPredPrice.py"})//이미지타이틀
+
 d2.set_fill("회귀 모델의 softmax 다중 분류 구현")//사용자 에필로그
 data_sets.push(d2)
 
