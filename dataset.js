@@ -106,7 +106,20 @@ d2.set_fill("회귀 모델의 softmax 다중 분류 구현")//사용자 에필�
 data_sets.push(d2)
 
 // menu3 =============================================================
-let d3 = new DataSet("서버프로그램구현")//메인타이틀
+let d3 = new DataSet("NLP_RNN 시계열 순환모델")//메인타이틀
+d3.set_content("가상화폐 가격 분석")//서브 타이틀
+d3.set_img(3,{imgtitle:"1. 데이터 API 수신",imglog:"빗썸 캔들데이터 날짜별 수신 모듈 ",imgurl:"https://drive.google.com/file/d/1d6kK-gOmweHghQqOQjDXbuTFWb9nIMnK/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/tree/main/RNN_encrypto_coin"})//이미지타이틀
+d3.set_img(3,{imgtitle:"2. 훈련데이터 생성",imglog:"훈련 데이터 정제 및 정답 데이터 생성 모듈",imgurl:"https://drive.google.com/file/d/1CVZUuvBnM_2F_Gjm8-_niC8lZ0H6HLGY/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/tree/main/RNN_encrypto_coin"})//이미지타이틀
+d3.set_img(3,{imgtitle:"3. 예측데이터 생성",imglog:"오늘 및 전일 예측 데이터 생성 모듈",imgurl:"https://drive.google.com/file/d/1IUI4rYNrvupwwVKW7wn3ouRweiG1Sc9D/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/tree/main/RNN_encrypto_coin"})//이미지타이틀
+d3.set_img(3,{imgtitle:"4. 데이터 상관관계 분석 스케터",imglog:"수신된 필드별 데이터의 상관관계 분석을 위한 스케터",imgurl:"https://drive.google.com/file/d/17WrylUfroxF3wltJjwuUYxjkP9n8XzOw/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/tree/main/RNN_encrypto_coin"})//이미지타이틀
+d3.set_img(3,{imgtitle:"5. 스케일러 함수",imglog:"필드별 표준 정규분포 데이터 스케일링 평탄화",imgurl:"https://drive.google.com/file/d/1qakrynMBfjn9uqC4YeA3Xp0pyXN6gGbb/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/tree/main/RNN_encrypto_coin"})//이미지타이틀
+d3.set_img(3,{imgtitle:"6. ConvLSTM 모델 구성",imglog:"ConvLSTM 모델과 양방향 학습으로 구성된 모델 구성 후 컴파일",imgurl:"https://drive.google.com/file/d/1dMrgxdsvC9bGIkdClNOYkxzSIKghMybs/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/tree/main/RNN_encrypto_coin"})//이미지타이틀
+d3.set_img(3,{imgtitle:"7. 훈련실행 및 체크포인트 콜백함수 적용",imglog:"체크포인트 콜백함수로 validation loss 최적화 모델 선택",imgurl:"https://drive.google.com/file/d/1gCVZcGlejzPnYZQkg1HyIhTfvMRau_ls/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/tree/main/RNN_encrypto_coin"})//이미지타이틀
+d3.set_img(3,{imgtitle:"8. 훈련결과 시각화",imglog:"MSE 데이터 결과 시각화 플롯그래프",imgurl:"https://drive.google.com/file/d/1jHdlL1G5RiIWB9vcnA_qH1y1Y13x30JO/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/tree/main/RNN_encrypto_coin"})//이미지타이틀
+d3.set_img(3,{imgtitle:"9. 정답, 예측 산점도 시각화",imglog:"실제 정답과 예측 값 산점도 시각화 예측률 분석",imgurl:"https://drive.google.com/file/d/1j9qJ58dFPxyFtCnzNqstIBUREfhasjfI/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/tree/main/RNN_encrypto_coin"})//이미지타이틀
+d3.set_img(3,{imgtitle:"10. 현재가격과 예측가격 산출을 위한 데이터 생성 및 예측",imglog:"현재가격과 현재가격산출 예측가격으로 오차율 산정 후 다음날의 예측가격 출력",imgurl:"https://drive.google.com/file/d/1rzAQLrbW93gdFtCGKZX2r9cmK82hgacR/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/tree/main/RNN_encrypto_coin"})//이미지타이틀
+d3.set_img(3,{imgtitle:"11. 최고가 예측 LSTM 모델 구성",imglog:"LSTM 모델로 최고 가격 예측",imgurl:"https://drive.google.com/file/d/1Ej9L6XzD1mw_7_1zQnR6MiX5p5xG6aWi/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/tree/main/RNN_encrypto_coin"})//이미지타이틀
+d3.set_img(3,{imgtitle:"12. 최고가 예측 산점도 및 예측가",imglog:"최고가 실제 가격과 예측 가격 산점도 비교 및 현재 가격의 예측 오차율과 다음 가격 산출",imgurl:"https://drive.google.com/file/d/1044vT_aYTVgxhnpxpIooogFA0-h-Cm54/view?usp=drive_link",sourceurl:"https://github.com/reores/AI_train_250317/tree/main/RNN_encrypto_coin"})//이미지타이틀
 
 data_sets.push(d3)
 
